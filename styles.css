@@ -1,0 +1,79 @@
+
+#top{
+  margin: 2%;
+}
+#home {
+  text-align: center;
+}
+#second{
+  padding: 2% 0% 2% 0%;
+}
+
+.heading{
+  text-align: center;
+  margin: 4%;
+}
+.heading2{
+  text-align: center;
+  padding: .5%;
+}
+
+.home-banner-1{
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: 90% center;
+  min-height: 650px;
+  position: relative;
+  background-image: url("img/uniMidPic7.jpg");
+}
+.home-banner-2{
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: 90% center;
+  min-height: 650px;
+  position: relative;
+  background-image: url("img/uniMidPic5.jpg");
+}
+
+
+.img1{
+  width: 200px;
+  height: 200px;
+}
+.img2{
+  border-radius: 100%;
+  width: 15%;
+  height: 15%;
+}
+#testimonials{
+  margin: 5%;
+  padding: 5%;
+    text-align: center;
+}
+.carousel-outer{
+  background-color: #ef8172;
+}
+
+#preOwned{
+  text-align: center;
+}
+.img3{
+  height: 30%;
+  width: 30%;
+}
+.text1{
+  margin: 4%;
+}
+
+#opening{
+  padding: 2% 0% 2% 0%;
+}
+.img4{
+  height: 100%;
+  width: 100%;
+}
+.buyNowBtn{
+  background-color: #fff;
+  border: none;
+  padding: .75%;
+}
