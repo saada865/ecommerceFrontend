@@ -17,15 +17,38 @@
   text-align: center;
   padding: .5%;
 }
+.img1{
+  width: 200px;
+  height: 200px;
+}
 
-.home-banner-1{
+
+#opening{
+  padding: 2% 0% 2% 0%;
+  background: url("img/uniMidPic7.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: all .5s;
+}
+.img4{
+  height: 100%;
+  width: 100%;
+}
+.buyNowBtn{
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: .75%;
+}
+/* .home-banner-1{
   background-repeat: no repeat;
   background-size: cover;
   background-position: 90% center;
   min-height: 650px;
   position: relative;
   background-image: url("img/uniMidPic7.jpg");
-}
+} */
 .home-banner-2{
   background-repeat: no repeat;
   background-size: cover;
@@ -34,24 +57,133 @@
   position: relative;
   background-image: url("img/uniMidPic5.jpg");
 }
+.openingText{
+  text-align: center;
+  padding: 10% 5% 5% 5%;
+}
+.openingText2{
+  padding: 5%;
+}
 
 
-.img1{
-  width: 200px;
-  height: 200px;
+#side{
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
 }
-.img2{
-  border-radius: 100%;
-  width: 15%;
-  height: 15%;
+
+.sidebarHolder{
+  /* margin-top: 50px; */
 }
+
+/* .checkboxClass{
+  margin: 100px;
+}
+.checkboxLabelClass{
+  margin: 100px;
+} */
+
+.sidebar{
+  position: fixed;
+  margin-top: 2.1%;
+  z-index: 1111;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  /* background: #042331; */
+  background: grey;
+  transition: all .5s ease;
+}
+.sidebar header{
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+  /* background: #063146; */
+background: grey;
+  user-select: none;
+}
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: #fff;
+
+  padding-left: 40px;
+  box-sizing: border-box;
+  /* border-top: 1px solid rgba(255, 255, 255, .1); */
+
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  transition: .4s;
+}
+ul li:hover a{
+  padding-left: 50px;
+}
+.sidebar ul a i{
+  margin-right: 16px;
+}
+#check{
+  display: none;
+}
+
+label #cancel{
+  /* position: absolute; */
+  cursor: pointer;
+  background: black;
+  border-radius: 20px;
+}
+
+label #cancel{
+  position: fixed;
+  z-index: 1111;
+  /* left: -195px;
+  top: 17px; */
+  font-size: 30px;
+  /* color: #0a5275; */
+  color: grey;
+  padding: 10px 20px;
+  margin-left: 4%;
+  margin-top: 4%;
+  transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+  left: 0px;
+}
+
+#check:checked ~ label #cancel{
+  left: 195px;
+}
+
+#sec{
+  background: url("img/uniMidPic20.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: all .5s;
+}
+
+
+
+
+
 #testimonials{
   margin: 5%;
   padding: 5%;
     text-align: center;
 }
+.img2{
+  border-radius: 100%;
+  width: 10%;
+}
 .carousel-outer{
-  background-color: #ef8172;
+  background-color: rgba(0,0,0,0.1);
+}
+.testimonialsText1{
+  padding: 2%;
 }
 
 #preOwned{
@@ -65,18 +197,6 @@
   margin: 4%;
 }
 
-#opening{
-  padding: 2% 0% 2% 0%;
-}
-.img4{
-  height: 100%;
-  width: 100%;
-}
-.buyNowBtn{
-  background-color: #fff;
-  border: none;
-  padding: .75%;
-}
 
 #banner{
   text-align: center;
